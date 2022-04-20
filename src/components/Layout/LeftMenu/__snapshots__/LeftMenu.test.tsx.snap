@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LeftMenu> renders correctly 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  margin-left: auto;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width:599.95px) {
+  .emotion-1 {
+    display: none;
+  }
+}
+
+.emotion-2 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  color: #26225e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff9!important;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-2:hover {
+  color: #fff!important;
+}
+
+.emotion-2:last-child {
+  margin-right: 0px!important;
+  padding-right: 0px;
+}
+
+.emotion-3 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  font-size: 1rem!important;
+  bottom: -3px;
+  position: relative;
+}
+
+<div
+    class="MuiBox-root emotion-0"
+  >
+    <div
+      class="MuiBox-root emotion-1"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-2"
+        href="#test1"
+        rel="noopener"
+        target="_blank"
+      >
+        test1 
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-3"
+          data-testid="OpenInNewIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+          />
+        </svg>
+      </a>
+      <a
+        class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-2"
+        href="#test2"
+        rel="noopener"
+        target="_blank"
+      >
+        test2 
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-3"
+          data-testid="OpenInNewIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+          />
+        </svg>
+      </a>
+      <a
+        class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-2"
+        href="#test3"
+        rel="noopener"
+        target="_blank"
+      >
+        test3 
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-3"
+          data-testid="OpenInNewIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

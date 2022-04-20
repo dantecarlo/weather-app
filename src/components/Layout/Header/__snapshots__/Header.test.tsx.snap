@@ -1,0 +1,2114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> renders correctly 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px!important;
+}
+
+.emotion-1 {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  left: auto;
+  right: 0;
+  background-color: #26225e;
+  color: #fff;
+  z-index: 1201!important;
+  height: 60!important;
+}
+
+@media print {
+  .emotion-1 {
+    position: absolute;
+  }
+}
+
+.emotion-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px!important;
+}
+
+@media (min-width:600px) {
+  .emotion-2 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width:0px) and (orientation: landscape) {
+  .emotion-2 {
+    min-height: 48px;
+  }
+}
+
+@media (min-width:600px) {
+  .emotion-2 {
+    min-height: 64px;
+  }
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+@media (max-width:599.95px) {
+  .emotion-3 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  margin-left: -12px;
+  color: inherit;
+  margin-right: 1.6px;
+}
+
+.emotion-4::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-4.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-4 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-4:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-4:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-4.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+@media (min-width:600px) {
+  .emotion-4 {
+    display: none!important;
+  }
+}
+
+.emotion-5 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.emotion-6 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.emotion-8 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.emotion-9 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700!important;
+}
+
+.emotion-10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  margin-left: -12px;
+  color: inherit;
+}
+
+.emotion-10::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-10.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-10 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-10:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-10:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-10.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-13 {
+  margin-left: auto;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width:599.95px) {
+  .emotion-14 {
+    display: none;
+  }
+}
+
+.emotion-15 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  color: #26225e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff9!important;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-15:hover {
+  color: #fff!important;
+}
+
+.emotion-15:last-child {
+  margin-right: 0px!important;
+  padding-right: 0px;
+}
+
+.emotion-16 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  font-size: 1rem!important;
+  bottom: -3px;
+  position: relative;
+}
+
+.emotion-21 {
+  width: 260px;
+}
+
+@media (min-width:600px) {
+  .emotion-21 {
+    -webkit-flex-shrink: 0!important;
+    -ms-flex-negative: 0!important;
+    flex-shrink: 0!important;
+  }
+}
+
+.emotion-22 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  height: 60px!important;
+}
+
+@media (min-width:0px) and (max-width:599.95px) {
+  .emotion-22 {
+    display: none!important;
+  }
+}
+
+@media (min-width:600px) and (max-width:899.95px) {
+  .emotion-22 {
+    display: block!important;
+  }
+}
+
+.emotion-22 .MuiDrawer-paper {
+  box-sizing: border-box;
+  width: 260px;
+}
+
+.emotion-23 {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: none;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  z-index: 1200;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  top: 0;
+  outline: 0;
+  left: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.emotion-25 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-26 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  min-width: 0;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-26::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-26.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-26 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-26:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-26:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-26.Mui-selected {
+  background-color: rgba(38, 34, 94, 0.08);
+}
+
+.emotion-26.Mui-selected.Mui-focusVisible {
+  background-color: rgba(38, 34, 94, 0.2);
+}
+
+.emotion-26.Mui-selected:hover {
+  background-color: rgba(38, 34, 94, 0.12);
+}
+
+@media (hover: none) {
+  .emotion-26.Mui-selected:hover {
+    background-color: rgba(38, 34, 94, 0.08);
+  }
+}
+
+.emotion-26.Mui-focusVisible {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-26.Mui-disabled {
+  opacity: 0.38;
+}
+
+.emotion-26 root {
+  padding-left: 20px!important;
+}
+
+.emotion-26 root:hover {
+  color: #26225e!important;
+}
+
+.emotion-27 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: 700!important;
+  height: 48px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-28 {
+  font-weight: 700!important;
+  color: #26225e!important;
+  -webkit-text-decoration: none!important;
+  text-decoration: none!important;
+}
+
+.emotion-28:hover {
+  color: #26225e!important;
+}
+
+@media (min-width:600px) {
+  .emotion-46 {
+    display: none;
+  }
+}
+
+.emotion-49 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  color: #26225e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 700!important;
+  margin-right: 40px;
+}
+
+.emotion-49:hover {
+  color: #fff!important;
+}
+
+.emotion-50 {
+  font-weight: 700!important;
+  margin-right: 40px;
+}
+
+.emotion-50:hover {
+  color: #fff!important;
+}
+
+<div
+    class="MuiBox-root emotion-0"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed emotion-1"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular emotion-2"
+      >
+        <div
+          class="MuiBox-root emotion-3"
+        >
+          <button
+            aria-label="open drawer"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium emotion-4"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-5"
+              data-testid="MenuIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root emotion-6"
+            />
+          </button>
+          <div
+            class="MuiBox-root emotion-7"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-8"
+              data-testid="DirectionsCarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap emotion-9"
+            >
+              Dave's Drivers
+            </p>
+          </div>
+          <button
+            aria-label="open drawer"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium emotion-10"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-5"
+              data-testid="NotificationsIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root emotion-6"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiBox-root emotion-13"
+        >
+          <div
+            class="MuiBox-root emotion-14"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-15"
+              href="http://google.com?q=receipts"
+              rel="noopener"
+              target="_blank"
+            >
+              Receipts 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                data-testid="OpenInNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                />
+              </svg>
+            </a>
+            <a
+              class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-15"
+              href="http://google.com?q=summary"
+              rel="noopener"
+              target="_blank"
+            >
+              Summary 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                data-testid="OpenInNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                />
+              </svg>
+            </a>
+            <a
+              class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-15"
+              href="https://rrts1614707543.atlassian.net/servicedesk/customer/portal/3/group/13/create/55"
+              rel="noopener"
+              target="_blank"
+            >
+              Support 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                data-testid="OpenInNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-label="navigation"
+      class="MuiBox-root emotion-21"
+    >
+      <div
+        class="MuiDrawer-root MuiDrawer-docked emotion-22"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft emotion-23"
+        >
+          <div>
+            <div
+              class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular emotion-2"
+            />
+            <ul
+              class="MuiList-root MuiList-padding emotion-25"
+            >
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/schedule"
+                  >
+                    Schedule
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/drivers"
+                  >
+                    Drivers
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/users"
+                  >
+                    Users
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/vehicles"
+                  >
+                    Vehicles
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/compliance"
+                  >
+                    Compliance
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiBox-root emotion-46"
+              >
+                <div
+                  class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root emotion-27"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-49"
+                      href="http://google.com?q=receipts"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <div
+                        class="MuiBox-root emotion-50"
+                      >
+                        Receipts 
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                          data-testid="OpenInNewIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-6"
+                  />
+                </div>
+                <div
+                  class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root emotion-27"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-49"
+                      href="http://google.com?q=summary"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <div
+                        class="MuiBox-root emotion-50"
+                      >
+                        Summary 
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                          data-testid="OpenInNewIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-6"
+                  />
+                </div>
+                <div
+                  class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root emotion-27"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-49"
+                      href="https://rrts1614707543.atlassian.net/servicedesk/customer/portal/3/group/13/create/55"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <div
+                        class="MuiBox-root emotion-50"
+                      >
+                        Support 
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                          data-testid="OpenInNewIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-6"
+                  />
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-1 {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  left: auto;
+  right: 0;
+  background-color: #26225e;
+  color: #fff;
+  z-index: 1201!important;
+  height: 60!important;
+}
+
+@media print {
+  .emotion-1 {
+    position: absolute;
+  }
+}
+
+.emotion-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:600px) {
+  .emotion-2 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width:0px) and (orientation: landscape) {
+  .emotion-2 {
+    min-height: 48px;
+  }
+}
+
+@media (min-width:600px) {
+  .emotion-2 {
+    min-height: 64px;
+  }
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+@media (max-width:599.95px) {
+  .emotion-3 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  margin-left: -12px;
+  color: inherit;
+  margin-right: 1.6px;
+}
+
+.emotion-4::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-4.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-4 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-4:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-4:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-4.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+@media (min-width:600px) {
+  .emotion-4 {
+    display: none!important;
+  }
+}
+
+.emotion-5 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.emotion-6 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.emotion-8 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.emotion-9 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700!important;
+}
+
+.emotion-10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  margin-left: -12px;
+  color: inherit;
+}
+
+.emotion-10::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-10.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-10 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-10:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-10:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-10.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-13 {
+  margin-left: auto;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width:599.95px) {
+  .emotion-14 {
+    display: none;
+  }
+}
+
+.emotion-15 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  color: #26225e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff9!important;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-15:hover {
+  color: #fff!important;
+}
+
+.emotion-15:last-child {
+  margin-right: 0px!important;
+  padding-right: 0px;
+}
+
+.emotion-16 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  font-size: 1rem!important;
+  bottom: -3px;
+  position: relative;
+}
+
+.emotion-21 {
+  width: 260px;
+}
+
+@media (min-width:600px) {
+  .emotion-21 {
+    -webkit-flex-shrink: 0!important;
+    -ms-flex-negative: 0!important;
+    flex-shrink: 0!important;
+  }
+}
+
+.emotion-22 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+@media (min-width:0px) and (max-width:599.95px) {
+  .emotion-22 {
+    display: none!important;
+  }
+}
+
+@media (min-width:600px) and (max-width:899.95px) {
+  .emotion-22 {
+    display: block!important;
+  }
+}
+
+.emotion-22 .MuiDrawer-paper {
+  box-sizing: border-box;
+  width: 260px;
+}
+
+.emotion-23 {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: none;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  z-index: 1200;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  top: 0;
+  outline: 0;
+  left: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.emotion-25 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.emotion-26 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  min-width: 0;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-26::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-26.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-26 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-26:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-26:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-26.Mui-selected {
+  background-color: rgba(38, 34, 94, 0.08);
+}
+
+.emotion-26.Mui-selected.Mui-focusVisible {
+  background-color: rgba(38, 34, 94, 0.2);
+}
+
+.emotion-26.Mui-selected:hover {
+  background-color: rgba(38, 34, 94, 0.12);
+}
+
+@media (hover: none) {
+  .emotion-26.Mui-selected:hover {
+    background-color: rgba(38, 34, 94, 0.08);
+  }
+}
+
+.emotion-26.Mui-focusVisible {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-26.Mui-disabled {
+  opacity: 0.38;
+}
+
+.emotion-26 root {
+  padding-left: 20px!important;
+}
+
+.emotion-26 root:hover {
+  color: #26225e!important;
+}
+
+.emotion-27 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: 700!important;
+  height: 48px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-28 {
+  font-weight: 700!important;
+  color: #26225e!important;
+  -webkit-text-decoration: none!important;
+  text-decoration: none!important;
+}
+
+.emotion-28:hover {
+  color: #26225e!important;
+}
+
+@media (min-width:600px) {
+  .emotion-46 {
+    display: none;
+  }
+}
+
+.emotion-49 {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  color: #26225e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 700!important;
+  margin-right: 40px;
+}
+
+.emotion-49:hover {
+  color: #fff!important;
+}
+
+.emotion-50 {
+  font-weight: 700!important;
+  margin-right: 40px;
+}
+
+.emotion-50:hover {
+  color: #fff!important;
+}
+
+<div
+    class="MuiBox-root emotion-0"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed emotion-1"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular emotion-2"
+      >
+        <div
+          class="MuiBox-root emotion-3"
+        >
+          <button
+            aria-label="open drawer"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium emotion-4"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-5"
+              data-testid="MenuIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root emotion-6"
+            />
+          </button>
+          <div
+            class="MuiBox-root emotion-7"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-8"
+              data-testid="DirectionsCarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap emotion-9"
+            >
+              Dave's Drivers
+            </p>
+          </div>
+          <button
+            aria-label="open drawer"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium emotion-10"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-5"
+              data-testid="NotificationsIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root emotion-6"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiBox-root emotion-13"
+        >
+          <div
+            class="MuiBox-root emotion-14"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-15"
+              href="http://google.com?q=receipts"
+              rel="noopener"
+              target="_blank"
+            >
+              Receipts 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                data-testid="OpenInNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                />
+              </svg>
+            </a>
+            <a
+              class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-15"
+              href="http://google.com?q=summary"
+              rel="noopener"
+              target="_blank"
+            >
+              Summary 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                data-testid="OpenInNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                />
+              </svg>
+            </a>
+            <a
+              class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-15"
+              href="https://rrts1614707543.atlassian.net/servicedesk/customer/portal/3/group/13/create/55"
+              rel="noopener"
+              target="_blank"
+            >
+              Support 
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                data-testid="OpenInNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-label="navigation"
+      class="MuiBox-root emotion-21"
+    >
+      <div
+        class="MuiDrawer-root MuiDrawer-docked emotion-22"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft emotion-23"
+        >
+          <div>
+            <div
+              class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular emotion-2"
+            />
+            <ul
+              class="MuiList-root MuiList-padding emotion-25"
+            >
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/schedule"
+                  >
+                    Schedule
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/drivers"
+                  >
+                    Drivers
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/users"
+                  >
+                    Users
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/vehicles"
+                  >
+                    Vehicles
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root emotion-27"
+                >
+                  <a
+                    class="emotion-28"
+                    href="/compliance"
+                  >
+                    Compliance
+                  </a>
+                </div>
+                <span
+                  class="MuiTouchRipple-root emotion-6"
+                />
+              </div>
+              <div
+                class="MuiBox-root emotion-46"
+              >
+                <div
+                  class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root emotion-27"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-49"
+                      href="http://google.com?q=receipts"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <div
+                        class="MuiBox-root emotion-50"
+                      >
+                        Receipts 
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                          data-testid="OpenInNewIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-6"
+                  />
+                </div>
+                <div
+                  class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root emotion-27"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-49"
+                      href="http://google.com?q=summary"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <div
+                        class="MuiBox-root emotion-50"
+                      >
+                        Summary 
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                          data-testid="OpenInNewIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-6"
+                  />
+                </div>
+                <div
+                  class="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root emotion-26"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div
+                    class="MuiListItemText-root emotion-27"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineNone emotion-49"
+                      href="https://rrts1614707543.atlassian.net/servicedesk/customer/portal/3/group/13/create/55"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <div
+                        class="MuiBox-root emotion-50"
+                      >
+                        Support 
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-16"
+                          data-testid="OpenInNewIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root emotion-6"
+                  />
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
