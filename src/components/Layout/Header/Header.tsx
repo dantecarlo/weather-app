@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react'
 import { Menu as MenuIcon } from '@mui/icons-material'
-import { CssBaseline, List, Theme, useMediaQuery } from '@mui/material'
+import { CssBaseline, List, Theme, Typography, useMediaQuery } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 import useUserContext from 'hooks/useUserContext'
 import { routes } from 'utils/constants'
 
+import useGlobalSettingsContext from 'hooks/useGlobalSettingsContext'
 import LeftMenu from '../LeftMenu'
 import {
   StyledContainer,
@@ -28,7 +29,8 @@ import {
   StyledStyledOpenInNewIcon,
   StyledToolbar,
   StyledWelcomeName,
-  StyledDivider
+  StyledDivider,
+  StyledButton
 } from './Header.styles'
 
 const Header = () => {
@@ -36,6 +38,8 @@ const Header = () => {
   const { userName } = useUserContext()
   const [t] = useTranslation('global')
   const { pathname } = useLocation()
+  const { currentLanguage, setLanguage } = useGlobalSettingsContext()
+
   const isUpMd = useMediaQuery((theme: Theme) => theme.breakpoints.up('md'))
 
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -65,6 +69,12 @@ const Header = () => {
 
   const handleAppNameClick = () => {
     navigate(routes.home)
+  }
+
+  const handleButtonClick = () => {
+    setLanguage(currentLanguage === 'enEN' ? 'esES' : 'enEN')
+    // eslint-disable-next-line no-console
+    console.log('currentLanguage', currentLanguage)
   }
 
   const drawer = (
@@ -108,6 +118,9 @@ const Header = () => {
             )
           })}
         </LinkListContainer>
+        <StyledButton onClick={handleButtonClick} variant="outlined">
+          <Typography variant="body2"> {t('component.Header.changeLang')} </Typography>
+        </StyledButton>
       </List>
     </div>
   )
