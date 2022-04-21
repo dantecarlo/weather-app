@@ -86,8 +86,6 @@ const Home = () => {
     })
   }
 
-  console.log('weatherData', weatherData)
-
   return (
     <StyledHomeContainer>
       <SearchBar onSearch={setSearchAddress} placeholder={t('screen.Home.searchBarPlaceholder')} />

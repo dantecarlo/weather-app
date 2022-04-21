@@ -5,7 +5,6 @@ export const girdAdapter = (gridAPIData: any) => ({
 })
 
 export const weatherAdapter = (geolocationAPIData: any) => {
-  console.log(geolocationAPIData.data.properties.periods)
   const weatherData = geolocationAPIData.data.properties.periods.filter(
     (days: any) => days?.isDaytime === true
   )
