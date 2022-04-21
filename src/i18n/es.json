@@ -13,12 +13,10 @@
       "home": "Inicio",
       "linkedIn": "LinkedIn",
       "github": "Github",
-      "welcome": "Bienvenido"
+      "welcome": "Bienvenido",
+      "changeLang": "Cambiar Idioma"
     },
-    "Banner": {
-      "drivers": "Conductores",
-      "users": "Usuarios"
-    },
+
     "Footer": {
       "footerLabel": "Creado por Dante {{currentYear}} ©"
     }

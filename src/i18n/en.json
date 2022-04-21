@@ -13,11 +13,8 @@
       "home": "Home",
       "linkedIn": "LinkedIn",
       "github": "Github",
-      "welcome": "Welcome"
-    },
-    "Banner": {
-      "drivers": "Drivers",
-      "users": "Users"
+      "welcome": "Welcome",
+      "changeLang": "Change Language"
     },
     "Footer": {
       "footerLabel": "Made by Dante {{currentYear}} ©"
