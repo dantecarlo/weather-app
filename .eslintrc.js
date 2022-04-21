@@ -24,8 +24,10 @@ module.exports = {
   },
   plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
   rules: {
+    '@typescript-eslint/return-await': 'off',
+    '@typescript-eslint/no-unused-expressions': ['error', { allowShortCircuit: true }],
     semi: 'off',
-    '@typescript-eslint/semi': ['off'],
+    '@typescript-eslint/semi': 'off',
     'react/display-name': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',

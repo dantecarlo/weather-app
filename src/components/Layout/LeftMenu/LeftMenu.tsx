@@ -1,16 +1,7 @@
 import { FC } from 'react'
 
 import { RightBox, RightBoxLink, Root, StyledOpenInNewIcon } from './LeftMenu.styles'
-
-interface IExternalLinks {
-  displayName: string
-  href: string
-  external: boolean
-}
-
-interface ILeftMenu {
-  linkList: IExternalLinks[]
-}
+import { ILeftMenu } from './LeftMenu.types'
 
 const LeftMenu: FC<ILeftMenu> = (props) => {
   const { linkList } = props

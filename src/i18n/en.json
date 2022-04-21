@@ -21,71 +21,12 @@
     },
     "Footer": {
       "footerLabel": "Made by Dante {{currentYear}} ©"
-    },
-    "NewAdminForm": {
-      "requestSent": "Request Sent",
-      "confirmMessage": "An admin will review this request shortly.",
-      "failMessage": "Something went wrong! Please try later!",
-      "titleForm": "Request New Admin Account",
-      "firstName": "First Name*",
-      "lastName": "Last Name*",
-      "email": "Email Address*",
-      "confirmButton": "Submit User Request",
-      "requiredError": "This field is required.",
-      "onlyLettersError": "This field only accepts letters.",
-      "emailError": "Please provide a valid email address.",
-      "minLengthError": "This field should contain at least {{minLength}} characters."
-    },
-    "DetailCard": {
-      "stops": "Stops",
-      "stop": "Stop",
-      "address": "Address",
-      "dropOff": "Drop-Off",
-      "pickUp": "Pick Up",
-      "due": "Due",
-      "passengers": "Passengers",
-      "passenger(s)": "Passenger(s)",
-      "monitorRequired": "Monitor Required",
-      "requirements": "Requirements",
-      "passengerEquipment": "Passenger Equipment",
-      "tripInto": "Trip Info - VR#",
-      "printRunSheet": "Print Run Sheet",
-      "unableToServiceRun": "Unable To Service Run",
-      "changeDriver": "Change Driver",
-      "yes": "Yes",
-      "no": "No"
-    },
-    "ContactCard": {
-      "passenger": "Passenger",
-      "contacts": "Contacts",
-      "numbers": "Numbers",
-      "firstName": "First Name*",
-      "lastName": "Last Name*",
-      "email": "Email Address*"
-    },
-    "SearchBar": {
-      "placeholderSearchBar": "Driver Name or MDD"
-    },
-    "Table": {
-      "driverName": "Driver Name",
-      "MDD": "MDD",
-      "vehicle": "Vehicle",
-      "srName": "SR Name",
-      "date": "Date",
-      "startHour": "Start Hour",
-      "endHour": "End Hour",
-      "stops": "Stops",
-      "passengers": "Passengers",
-      "miles": "Miles",
-      "status": "Status",
-      "details": "Details",
-      "id": "Id",
-      "eligible": "Eligible"
     }
   },
   "screen": {
-    "Schedule": {
-      "download": "Download all runs as .CSV"
+    "Home": {
+      "searchBarPlaceholder": "Search address...",
+      "addressNotFound": "No address matches"
     }
   }
 }
