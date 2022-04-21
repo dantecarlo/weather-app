@@ -1,4 +1,4 @@
-# Love Demo
+# Live Demo
 https://weather-app-lilac-five.vercel.app/
 
 # Getting Started with Create React App
