@@ -18,6 +18,7 @@ import {
 } from '@mui/icons-material'
 
 import { drawerWidth, headerHeight } from 'utils/constants'
+import { StyledListItemButtonProps, StyledNavLinkProps } from './Header.types'
 
 export const StyledContainer = styled(Box)({
   display: 'flex',
@@ -105,10 +106,6 @@ export const StyledDivider = styled(Divider)(({ theme }) => ({
   backgroundColor: theme.palette.common.white
 }))
 
-interface StyledListItemButtonProps {
-  isActive?: boolean
-}
-
 export const StyledListItemButton = styled(ListItemButton, {
   shouldForwardProp: (prop) => prop !== 'isActive'
 })<StyledListItemButtonProps>(({ theme, isActive }) => {
@@ -138,10 +135,6 @@ export const StyledListItemText = styled(ListItemText)(({ theme }) => ({
   flexDirection: 'column',
   justifyContent: 'center'
 }))
-
-interface StyledNavLinkProps {
-  isActive?: boolean
-}
 
 export const StyledNavLink = styled(NavLink, {
   shouldForwardProp: (prop) => prop !== 'isActive'

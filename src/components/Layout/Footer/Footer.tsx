@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <StyledFooterLabel title={t('footerLabel')}>
-        <StyledFooterAnchor href="https://www.linkedin.com/in/dantecnp/">
+        <StyledFooterAnchor href="https://www.linkedin.com/in/dantecnp/" target="_blank">
           {t('component.Footer.footerLabel', { currentYear })}{' '}
         </StyledFooterAnchor>
       </StyledFooterLabel>

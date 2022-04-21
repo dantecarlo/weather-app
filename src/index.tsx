@@ -2,18 +2,30 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
+import { QueryClient, QueryClientProvider } from 'react-query'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { ContextProvider } from './contexts/ContextProvider'
 
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+      retry: false
+    }
+  }
+})
+
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ContextProvider>
-        <App />
-      </ContextProvider>
-    </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <ContextProvider>
+          <App />
+        </ContextProvider>
+      </BrowserRouter>
+    </QueryClientProvider>
   </React.StrictMode>
 )
 

@@ -21,71 +21,12 @@
     },
     "Footer": {
       "footerLabel": "Creado por Dante {{currentYear}} ©"
-    },
-    "NewAdminForm": {
-      "requestSent": "Solicitud Enviada",
-      "confirmMessage": "Un administrador revisará esta solicitud en breve.",
-      "failMessage": "¡Algo salió mal! ¡Por favor intente nuevamente más tarde!",
-      "titleForm": "Solicitar Nueva Cuenta de Administrador",
-      "firstName": "Nombre*",
-      "lastName": "Apellido*",
-      "email": "Dirección de Correo Electrónico*",
-      "confirmButton": "Enviar Solicitud de Usuario",
-      "requiredError": "Este campo es requerido.",
-      "onlyLettersError": "Este campo sólo acepta letras.",
-      "emailError": "Por favor, ingrese una dirección de correo electrónco válida.",
-      "minLengthError": "Este campo debe contener al menos {{minLength}} caracteres."
-    },
-    "DetailCard": {
-      "stops": "Paradas",
-      "stop": "Parada",
-      "address": "Dirección",
-      "dropOff": "Destino",
-      "pickUp": "Origen",
-      "due": "Programado para",
-      "passengers": "Pasajeros",
-      "passenger(s)": "Pasajero(s)",
-      "monitorRequired": "Monitor Requerido",
-      "requirements": "Requisitos",
-      "passengerEquipment": "Equipamiento del Pasajero",
-      "tripInto": "Información del Viaje - RV#",
-      "printRunSheet": "Imprimir Hoja del Recorrido",
-      "unableToServiceRun": "No se puede realizar el recorrido",
-      "changeDriver": "Cambiar Conductor",
-      "yes": "Sí",
-      "no": "No"
-    },
-    "ContactCard": {
-      "passenger": "Pasajero",
-      "contacts": "Contactos",
-      "numbers": "Números",
-      "firstName": "Nombre*",
-      "lastName": "Apellido*",
-      "email": "Dirección de Correo Electrónico*"
-    },
-    "SearchBar": {
-      "placeholderSearchBar": "Nombre del Conductor o DDM"
-    },
-    "Table": {
-      "driverName": "Nombre del Conductor",
-      "MDD": "DDM",
-      "vehicle": "Vehículo",
-      "srName": "Nombre de Ruta",
-      "date": "Fecha",
-      "startHour": "Hora de Inicio",
-      "endHour": "Hora de Finalización",
-      "stops": "Paradas",
-      "passengers": "Pasajeros",
-      "miles": "Millas",
-      "status": "Estado",
-      "details": "Detalles",
-      "id": "Id",
-      "eligible": "Elegible"
     }
   },
   "screen": {
-    "Schedule": {
-      "download": "Descargar Todos los Recorridos como .CSV"
+    "Home": {
+      "searchBarPlaceholder": "Buscar direccion...",
+      "addressNotFound": "Sin coincidencias en la dirección"
     }
   }
 }
