@@ -9,7 +9,8 @@ import {
   ListItemButton,
   ListItemText,
   Link,
-  Divider
+  Divider,
+  Button
 } from '@mui/material'
 import { NavLink } from 'react-router-dom'
 import {
@@ -174,3 +175,8 @@ export const StyledStyledOpenInNewIcon = styled(OpenInNewIcon)({
   bottom: -3,
   position: 'relative'
 })
+
+export const StyledButton = styled(Button)(({ theme }) => ({
+  marginTop: theme.spacing(2),
+  marginLeft: theme.spacing(2)
+}))
